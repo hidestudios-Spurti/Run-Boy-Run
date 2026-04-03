@@ -226,12 +226,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Player
   rb: {fileID: 242689930}
   _currentSpeed: 0
-  _maxSpeed: 8
+  _maxSpeed: 10
+  _boostSpeed: 15
   _acceleration: 4
   _deceleration: 10
-  _turnDeceleration: 20
+  _turnDeceleration: 40
   _jumpStrenght: 8.5
   _isGrounded: 0
+  _boostEndTime: 0
 --- !u!212 &242689933
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -602,7 +604,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0714, y: -4, z: 0}
-  m_LocalScale: {x: 17.762423, y: 1, z: 1}
+  m_LocalScale: {x: 41.075603, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
